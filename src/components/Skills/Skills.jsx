@@ -4,6 +4,7 @@ import ProgressBar from "@ramonak/react-progress-bar"
 import './Skills.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
+import Image from 'next/image';
 
 const Skills = () => {
 
@@ -21,7 +22,7 @@ const Skills = () => {
                 <div className='flex justify-center items-center w-full space-x-10 pb-10'>
                     <div className='flex w-full justify-center items-center space-x-3'>
                         <div>
-                            <img className='w-10' src="/skill/html.png" alt="" />
+                            <Image width={100} height={20} className='w-10' src="/skill/html.png" alt="" />
                         </div>
                         <div className='w-full '>
                             <h1 className='text-white'>HTML</h1>
@@ -30,7 +31,7 @@ const Skills = () => {
                     </div>
                     <div className='flex w-full justify-center items-center space-x-3'>
                         <div>
-                            <img className='w-10' src="/skill/css.png" alt="" />
+                            <Image width={100} height={20} className='w-10' src="/skill/css.png" alt="" />
                         </div>
                         <div className='w-full '>
                             <h1 className='text-white'>CSS</h1>
@@ -41,7 +42,7 @@ const Skills = () => {
                 <div className='flex justify-center items-center w-full space-x-10 pb-10'>
                     <div className='flex justify-center items-center space-x-5 w-full'>
                         <div>
-                            <img className='w-10' src="/skill/js.svg" alt="" />
+                            <Image width={100} height={20} className='w-10' src="/skill/js.svg" alt="" />
                         </div>
                         <div className='w-full '>
                             <h1 className='text-white'>JAVASCRIPT</h1>
@@ -50,7 +51,7 @@ const Skills = () => {
                     </div>
                     <div className='flex justify-center space-x-3 items-center w-full'>
                         <div>
-                            <img className='w-10' src="/skill/react.png" alt="" />
+                            <Image width={100} height={20} className='w-10' src="/skill/react.png" alt="" />
                         </div>
                         <div className='w-full '>
                             <h1 className='text-white'>REACT</h1>
@@ -61,7 +62,7 @@ const Skills = () => {
                 <div className='flex justify-center items-center w-full space-x-10 pb-10'>
                     <div className='flex justify-center items-center space-x-5 w-full'>
                         <div>
-                            <img className='w-[50px]' src="/skill/tailwind.svg" alt="" />
+                            <Image width={100} height={20} className='w-[50px]' src="/skill/tailwind.svg" alt="" />
                         </div>
                         <div className='w-full '>
                             <h1 className='text-white'>TAILWIND CSS</h1>
@@ -70,7 +71,7 @@ const Skills = () => {
                     </div>
                     <div className='flex justify-center items-center space-x-5 w-full'>
                         <div>
-                            <img className='w-[50px]' src="/skill/node.svg" alt="" />
+                            <Image width={100} height={20} className='w-[50px]' src="/skill/node.svg" alt="" />
                         </div>
                         <div className='w-full '>
                             <h1 className='text-white'>NODE JS</h1>
@@ -81,7 +82,7 @@ const Skills = () => {
                 <div className='flex justify-center items-center w-full space-x-10'>
                     <div className='flex justify-center items-center space-x-5 w-full'>
                         <div>
-                            <img className='w-[50px]' src="/skill/express.png" alt="" />
+                            <Image width={100} height={20} className='w-[50px]' src="/skill/express.png" alt="" />
                         </div>
                         <div className='w-full '>
                             <h1 className='text-white'>EXPRESS JS</h1>
@@ -90,7 +91,7 @@ const Skills = () => {
                     </div>
                     <div className='flex justify-center items-center space-x-5 w-full'>
                         <div>
-                            <img className='w-[50px]' src="/skill/mongodb.svg" alt="" />
+                            <Image width={100} height={20} className='w-[50px]' src="/skill/mongodb.svg" alt="" />
                         </div>
                         <div className='w-full'>
                             <h1 className='text-white'>MONGODB</h1>

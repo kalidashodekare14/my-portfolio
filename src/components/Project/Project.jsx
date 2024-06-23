@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const Project = () => {
@@ -10,18 +11,18 @@ const Project = () => {
             <div className='flex flex-col justify-center items-center space-y-5'>
                 <div className='flex justify-center space-x-5'>
                     <div className='border-4 border-[#07dde1] w-[40%]'>
-                        <img className='w-full' src="/project/project1.png" alt="" />
+                        <Image width={500} height={300} className='w-full' src="/project/project1.png" alt="" />
                     </div>
                     <div className='border-4 border-[#07dde1] w-[40%]'>
-                        <img className='w-full' src="/project/project2.png" alt="" />
+                        <Image width={500} height={300} className='w-full' src="/project/project2.png" alt="" />
                     </div>
                 </div>
                 <div className='flex justify-center space-x-5'>
                     <div className='border-4 border-[#07dde1] w-[40%]'>
-                        <img className='' src="/project/project3.png" alt="" />
+                        <Image width={600} height={300} className='' src="/project/project3.png" alt="" />
                     </div>
                     <div className='border-4 border-[#07dde1] w-[40%]'>
-                        <img className='' src="/project/project4.png" alt="" />
+                        <Image width={600} height={200} className='' src="/project/project4.png" alt="" />
                     </div>
                 </div>
             </div>

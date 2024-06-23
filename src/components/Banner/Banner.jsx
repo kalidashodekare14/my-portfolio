@@ -5,6 +5,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import Cursor from '../Cursor/Cursor';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Image from 'next/image';
 
 
 const Banner = () => {
@@ -30,7 +31,7 @@ const Banner = () => {
             <div className='relative'>
                 <div className='relative rounded-full'>
                     <div className='w-[80%]'>
-                        <img className='w-full rounded-full border' src={`/man.png`} alt="" />
+                        <Image className='w-full rounded-full border' width={300} height={400} src={`/man.png`} alt="" />
                     </div>
                 </div>
             </div>
