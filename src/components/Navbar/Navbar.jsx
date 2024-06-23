@@ -15,18 +15,28 @@ const Navbar = () => {
         </li>
         <li>
             <Link href={'/about'} className={`${pathName === '/about' ? 'border-b-2 text-[#02dde8] border-[#02dde8] rounded-none' : 'text-white'}`}>
-                About
+                About Me
             </Link>
         </li>
         <li>
             <Link href={'/contact'} className={`${pathName === '/contact' ? 'border-b-2 text-[#02dde8] border-[#02dde8] rounded-none' : 'text-white'}`}>
-                Contact
+                My Skills
+            </Link>
+        </li>
+        <li>
+            <Link href={'/contact'} className={`${pathName === '/contact' ? 'border-b-2 text-[#02dde8] border-[#02dde8] rounded-none' : 'text-white'}`}>
+                Education
+            </Link>
+        </li>
+        <li>
+            <Link href={'/contact'} className={`${pathName === '/contact' ? 'border-b-2 text-[#02dde8] border-[#02dde8] rounded-none' : 'text-white'}`}>
+                Contact Us
             </Link>
         </li>
     </>
 
     return (
-        <nav className="navbar bg-[#0d0d0d]">
+        <nav className="navbar bg-[#0d0d0d] px-32">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
