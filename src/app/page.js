@@ -1,7 +1,8 @@
 import AboutMe from "@/components/AboutMe/AboutMe";
 import Banner from "@/components/Banner/Banner";
+import ContactUs from "@/components/ContactUs/ContactUs";
+import Education from "@/components/Education/Education";
 import Skills from "@/components/Skills/Skills";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -9,6 +10,8 @@ export default function Home() {
       <Banner></Banner>
       <AboutMe></AboutMe>
       <Skills></Skills>
+      <Education></Education>
+      <ContactUs></ContactUs>
     </main>
   );
 }

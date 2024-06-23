@@ -1,13 +1,19 @@
 'use client'
-import React from 'react';
+import React, { useEffect } from 'react';
 import ProgressBar from "@ramonak/react-progress-bar"
 import './Skills.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 const Skills = () => {
 
+    useEffect(()=>{
+        AOS.init({});
+    },[])
+
     return (
         <div className='bg-[#0d0d0d] min-h-screen'>
-            <div>
+            <div data-aos="fade-up" data-aos-duration="1000">
                 <h1 className='text-white text-center text-4xl pt-10 '>My Skills</h1>
                 <div className='border-2 border-[#07dde1] w-32 m-auto'></div>
             </div>
