@@ -19,7 +19,7 @@ const AboutMe = () => {
             </div>
             <div className='mx-32 my-20 flex justify-center items-center space-x-10'>
                 <div data-aos="fade-right" data-aos-delay="1000" className='w-[40%] text-white'>
-                    <Image width={500} height={300} className='w-full rounded-lg' src={'/p.gif'} alt="" />
+                    <Image width={500} height={300} unoptimized className='w-full rounded-lg' src="/p.gif" alt="" />
                 </div>
                 <div className='w-[50%]  text-white space-y-5'>
                     <p data-aos="fade-left" data-aos-delay="2000" className=''>I am Kalidash Odekare. I am a web developer. And I am very passionate and dedicated to my work. As per Bayer's instructions in my 1 year experience. We develop user friendly websites.</p>
