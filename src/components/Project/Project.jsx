@@ -3,7 +3,7 @@ import React from 'react';
 
 const Project = () => {
     return (
-        <div className='bg-[#0d0d0d] min-h-screen px-32'>
+        <section id='projects' className='bg-[#0d0d0d] min-h-screen px-32'>
             <div data-aos="fade-up" data-aos-duration="1000" className='text-center py-20 '>
                 <h1 className='text-center text-2xl text-white'>Projects</h1>
                 <div className='border-2 border-[#07dde1] w-20 m-auto'></div>
@@ -26,7 +26,7 @@ const Project = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

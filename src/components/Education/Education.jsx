@@ -3,7 +3,7 @@ import { MdOutlineDateRange } from 'react-icons/md';
 
 const Education = () => {
     return (
-        <div className='h-[110vh]  bg-[#110f17]'>
+        <div id='education' className='h-[110vh]  bg-[#110f17]'>
             <div data-aos="fade-up" data-aos-duration="1000">
                 <h1 className='text-white text-center text-4xl pt-10 '>Education</h1>
                 <div className='border-2 border-[#07dde1] w-32 m-auto'></div>

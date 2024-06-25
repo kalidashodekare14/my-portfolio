@@ -1,7 +1,9 @@
 "use client"
-import Link from 'next/link';
+// import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React from 'react';
+import { Link } from 'react-scroll'
+
 
 const Navbar = () => {
 
@@ -9,34 +11,80 @@ const Navbar = () => {
 
     const links = <>
         <li>
-            <Link href={'/'} className={`${pathName === '/' ? 'border-b-2 text-[#02dde8] border-[#02dde8] rounded-none outline-none' : 'text-white'}`}>
+            <Link
+                to="/"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                activeClass="border-b-2 text-[#02dde8] border-[#02dde8] rounded-none"
+                className={'text-white'}>
                 Home
             </Link>
         </li>
         <li>
-            <Link href={'/about'} className={`${pathName === '/about' ? 'border-b-2 text-[#02dde8] border-[#02dde8] rounded-none' : 'text-white'}`}>
+            <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                activeClass="border-b-2 text-[#02dde8] border-[#02dde8] rounded-none"
+                duration={500}
+                className={'text-white'}>
                 About Me
             </Link>
         </li>
         <li>
-            <Link href={'/contact'} className={`${pathName === '/contact' ? 'border-b-2 text-[#02dde8] border-[#02dde8] rounded-none' : 'text-white'}`}>
+            <Link
+                to="skills"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                activeClass="border-b-2 text-[#02dde8] border-[#02dde8] rounded-none"
+                className='text-white'>
                 My Skills
             </Link>
         </li>
         <li>
-            <Link href={'/contact'} className={`${pathName === '/contact' ? 'border-b-2 text-[#02dde8] border-[#02dde8] rounded-none' : 'text-white'}`}>
+            <Link to="education"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                activeClass="border-b-2 text-[#02dde8] border-[#02dde8] rounded-none"
+                className='text-white'>
                 Education
             </Link>
         </li>
         <li>
-            <Link href={'/contact'} className={`${pathName === '/contact' ? 'border-b-2 text-[#02dde8] border-[#02dde8] rounded-none' : 'text-white'}`}>
+            <Link
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                activeClass="border-b-2 text-[#02dde8] border-[#02dde8] rounded-none"
+                className='text-white'>
+                Projects
+            </Link>
+        </li>
+        <li>
+            <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-150}
+                duration={500}
+                activeClass="border-b-2 text-[#02dde8] border-[#02dde8] rounded-none"
+                className='text-white'>
                 Contact Us
             </Link>
         </li>
     </>
 
     return (
-        <nav className="navbar bg-[#0d0d0d] px-32">
+        <nav className="navbar fixed bg-[#0d0d0d] px-32">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

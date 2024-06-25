@@ -14,7 +14,7 @@ const ContactUs = () => {
 
 
     return (
-        <div className='bg-[#0d0d0d] min-h-screen px-32 py-10'>
+        <section id='contact' className='bg-[#0d0d0d] min-h-screen px-32 pt-20 pb-20'>
             <div data-aos="fade-up" data-aos-duration="1000" className='text-center'>
                 <h1 className='text-center text-2xl text-white'>Contact Us</h1>
                 <div className='border-2 border-[#07dde1] w-20 m-auto'></div>
@@ -84,7 +84,7 @@ const ContactUs = () => {
                     <button data-aos="fade-left" data-aos-delay="2800" className='btn w-60 bg-[#07dde1] border-0 '>Send Message</button>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

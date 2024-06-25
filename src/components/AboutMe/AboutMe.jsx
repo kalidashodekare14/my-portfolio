@@ -11,8 +11,7 @@ const AboutMe = () => {
     }, [])
 
     return (
-        <div className=' bg-[#110f17] h-[90vh] py-10 
-        '>
+        <section id='about' className=' bg-[#110f17] min-h-screen py-20'>
             <div data-aos="fade-up" data-aos-duration="1000" className='text-center'>
                 <h1 className='text-center text-2xl text-white'>About Me</h1>
                 <div className='border-2 border-[#07dde1] w-20 m-auto'></div>
@@ -26,7 +25,7 @@ const AboutMe = () => {
                     <button data-aos="fade-left" data-aos-delay="2200" className='btn border text-white border-[#07dde1] bg-opacity-0'>Ream More</button>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
