@@ -1,3 +1,47 @@
-.animation-slow{
-    animation: spin-slow 10s linear infinite
+.flashMove {
+    animation:  up-down 2s infinite;
+}
+.flashMove1 {
+    animation:  up-down 2s infinite;
+}
+.flashMove2 {
+    animation:  up-down 2s infinite;
+}
+.flashMove3 {
+    animation:  up-down 2s infinite;
+}
+.flashMove4 {
+    animation:  up-down 2s infinite;
+}
+.flashMove5 {
+    animation:  up-down 2s infinite;
+}
+.flashMove6 {
+    animation:  up-down 2s infinite;
+}
+
+
+
+@keyframes flash {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes up-down {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
 }

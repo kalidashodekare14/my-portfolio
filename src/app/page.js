@@ -5,6 +5,7 @@ import Education from "@/components/Education/Education";
 import Project from "@/components/Project/Project";
 import Skills from "@/components/Skills/Skills";
 
+
 export default function Home() {
   return (
     <main>
