@@ -1,23 +1,7 @@
+
+
 .flashMove {
-    animation:  up-down 2s infinite;
-}
-.flashMove1 {
-    animation:  up-down 2s infinite;
-}
-.flashMove2 {
-    animation:  up-down 2s infinite;
-}
-.flashMove3 {
-    animation:  up-down 2s infinite;
-}
-.flashMove4 {
-    animation:  up-down 2s infinite;
-}
-.flashMove5 {
-    animation:  up-down 2s infinite;
-}
-.flashMove6 {
-    animation:  up-down 2s infinite;
+    animation: up-down 3s infinite;
 }
 
 
@@ -42,6 +26,6 @@
     }
 
     50% {
-        transform: translateY(-5px);
+        transform: translateY(-15px);
     }
 }
