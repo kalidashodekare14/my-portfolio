@@ -40,7 +40,6 @@ const Education = () => {
                         <p className='text-[16px] text-[#ffffff6a]'>Currently pursuing Senior Secondary (XII) at Goreya Degree College under Dinajpur, with a focus on Humanities. Expected to complete in 2025</p>
                     </div>
                 </div>
-
             </div>
             <div className='flex justify-center items-center'>
                 <div data-aos="fade-right" data-aos-delay="2200" className='hover:bg-[#07dde12d] mx-3 duration-500 transition text-white border border-[#02bfe2] lg:w-[40%] p-5 space-y-3 rounded-lg'>

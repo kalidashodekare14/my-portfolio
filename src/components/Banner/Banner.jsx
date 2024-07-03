@@ -51,7 +51,7 @@ const Banner = () => {
                     <FaLinkedin data-aos="fade-up" data-aos-delay="2500" />
                 </div>
                 <div>
-                    <Link data-aos="fade-up" data-aos-delay="2600" download href="/dawnload.pdf">
+                    <Link data-aos="fade-right" data-aos-delay="2600" download href="/dawnload.pdf">
                         <button className='btn bg-opacity-0 border text-white  hover:bg-[#07dde1] hover:border-[#07dde1] ease-in duration-300 hover:text-black border-[#07dde1]'>Dawnload Resume</button>
                     </Link>
                 </div>
