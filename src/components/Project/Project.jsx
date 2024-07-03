@@ -1,9 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import { FaNode, FaReact } from 'react-icons/fa';
+import { FaEye, FaGithub, FaNode, FaReact } from 'react-icons/fa';
 import { RiTailwindCssFill } from 'react-icons/ri';
 import { SiExpress, SiMongodb } from 'react-icons/si';
 import './Project.css'
+import Link from 'next/link';
 
 
 const Project = () => {
@@ -40,8 +41,18 @@ const Project = () => {
                             </div>
                         </div>
                         <div className='space-x-3'>
-                            <button className='btn bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>Live Link</button>
-                            <button className='btn bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>GitHub Link</button>
+                            <Link target='_blank' href="https://painting-pros-3868a.web.app">
+                                <button className='btn bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
+                                    <FaEye className='text-2xl' />
+                                    Live Link
+                                </button>
+                            </Link>
+                            <Link target='_blank' href="https://github.com/kalidashodekare14/Painting-Pros-Client">
+                                <button className='btn bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
+                                    <FaGithub className='text-2xl' />
+                                    GitHub Link
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -71,8 +82,18 @@ const Project = () => {
                             </div>
                         </div>
                         <div className='space-x-3'>
-                            <button className='btn bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>Live Link</button>
-                            <button className='btn bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>GitHub Link</button>
+                            <Link target='_blank' href="https://precision-medical-camp.web.app">
+                                <button className='btn bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
+                                    <FaEye className='text-2xl' />
+                                    Live Link
+                                </button>
+                            </Link>
+                            <Link target='_blank' href="https://github.com/kalidashodekare14/precision-medical-camp">
+                                <button className='btn bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
+                                    <FaGithub className='text-2xl' />
+                                    GitHub Link
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -104,8 +125,18 @@ const Project = () => {
                             </div>
                         </div>
                         <div className='space-x-3'>
-                            <button className='btn bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>Live Link</button>
-                            <button className='btn bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>GitHub Link</button>
+                            <Link target='_blank' href="https://repair-perfect.web.app">
+                                <button className='btn bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
+                                    <FaEye className='text-2xl' />
+                                    Live Link
+                                </button>
+                            </Link>
+                            <Link target='_blank' href="https://github.com/kalidashodekare14/repair-perfect-client">
+                                <button className='btn bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
+                                    <FaGithub className='text-2xl' />
+                                    GitHub Link
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -137,8 +168,18 @@ const Project = () => {
                             </div>
                         </div>
                         <div className='space-x-3'>
-                            <button className='btn bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>Live Link</button>
-                            <button className='btn bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>GitHub Link</button>
+                            <Link target='_blank' href="https://royal-respite.web.app">
+                                <button className='btn bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
+                                    <FaEye className='text-2xl' />
+                                    Live Link
+                                </button>
+                            </Link>
+                            <Link target='_blank' href="https://github.com/kalidashodekare14/royel-respite">
+                                <button className='btn bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
+                                    <FaGithub className='text-2xl' />
+                                    GitHub Link
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
