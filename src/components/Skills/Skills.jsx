@@ -10,6 +10,7 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiExpress, SiMongodb } from "react-icons/si";
 
+
 const Skills = () => {
 
     useEffect(() => {
@@ -23,72 +24,59 @@ const Skills = () => {
                 <h1 className='text-white text-center text-4xl pt-10 '>My Skills</h1>
                 <div className='border-2 border-[#07dde1] w-32 m-auto'></div>
             </div>
-            <div className='lg:mx-40 mx-3 mt-20'>
-                <div className='flex flex-col lg:flex-row justify-center items-center w-full lg:space-x-10 pb-10'>
-                    <div className='flex w-full justify-center items-center space-x-3 pb-8 lg:pb-0'>
-                        <FaHtml5 className='text-4xl text-[#ff5733]' />
-                        <div className='w-full'>
-                            <h1 className='text-white'>HTML</h1>
-                            <ProgressBar bgColor="#02bfe2" animateOnRender={true} completed={90} />
+            <div className='space-y-24'>
+                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 lg:mx-32 mx-3 my-10 mb-10'>
+                    <div className='lg:w-40 w-full h-full lg:h-[25vh]'>
+                        <div className='flex justify-center hover:scale-y-105 hover:text-[#f74a1d] text-6xl hover:text-7xl transition-all duration-200 text-[#fda5a591] items-center lg:w-40 lg:h-[25vh] h-[30vh]  rounded-3xl border border-[#07dde1]'>
+                            <FaHtml5 className=''></FaHtml5>
                         </div>
+                        <h1 className='text-center my-5 uppercase text-[#07dde1] text-xl'>Html</h1>
                     </div>
-                    <div className='flex w-full justify-center items-center space-x-3'>
-                        <FaCss3 className='text-4xl text-[#2862e9]' />
-                        <div className='w-full '>
-                            <h1 className='text-white'>CSS</h1>
-                            <ProgressBar bgColor="#02bfe2" animateOnRender={true} completed={95} />
+                    <div className='lg:w-40 w-full h-full lg:h-[25vh]'>
+                        <div className='flex justify-center hover:text-[#0068ba] text-6xl hover:scale-y-105 hover:text-7xl transition-all duration-200 text-[#6b8ba4b0] items-center lg:w-40 lg:h-[25vh] h-[30vh]  rounded-3xl border border-[#07dde1]'>
+                            <FaCss3 className=' '></FaCss3>
                         </div>
+                        <h1 className='text-center my-5 uppercase text-[#07dde1] text-xl'>Css</h1>
                     </div>
-                </div>
-                <div className='flex flex-col lg:flex-row justify-center items-center w-full lg:space-x-10 pb-10'>
-                    <div className='flex justify-center items-center space-x-5 w-full pb-8 lg:pb-0'>
-                        <IoLogoJavascript className='text-4xl text-[#efd81d]' />
-                        <div className='w-full '>
-                            <h1 className='text-white'>JAVASCRIPT</h1>
-                            <ProgressBar bgColor="#02bfe2" animateOnRender={true} completed={80} />
+                    <div className='lg:w-40 w-full h-full lg:h-[25vh]'>
+                        <div className='flex justify-center hover:text-[#efd81d] hover:scale-y-105 text-6xl hover:text-7xl transition-all duration-200 text-[#b9b289] items-center lg:w-40 lg:h-[25vh] h-[30vh]  rounded-3xl border border-[#07dde1]'>
+                            <IoLogoJavascript className='' />
                         </div>
+                        <h1 className='text-center my-5 uppercase text-[#07dde1] text-xl'>Javascript</h1>
                     </div>
-                    <div className='flex justify-center space-x-3 items-center w-full'>
-                        <FaReact className='text-4xl text-[#00d1f7]' />
-                        <div className='w-full '>
-                            <h1 className='text-white'>REACT</h1>
-                            <ProgressBar bgColor="#02bfe2" animateOnRender={true} completed={80} />
+                    <div className='lg:w-40 w-full h-full lg:h-[25vh]'>
+                        <div className='flex justify-center hover:text-[#00d1f7] text-6xl hover:text-7xl hover:scale-y-105 transition-all duration-200 text-[#90c6cf] items-center lg:w-40 lg:h-[25vh] h-[30vh]  rounded-3xl border border-[#07dde1]'>
+                            <FaReact className=''></FaReact>
                         </div>
+                        <h1 className='text-center my-5 uppercase text-[#07dde1] text-xl'>React</h1>
                     </div>
-                </div>
-                <div className='flex flex-col lg:flex-row justify-center items-center w-full lg:space-x-10 pb-10'>
-                    <div className='flex justify-center items-center space-x-5 w-full pb-8 lg:pb-0'>
-                        <RiTailwindCssFill className='text-4xl text-[#39abab]' />
-                        <div className='w-full '>
-                            <h1 className='text-white'>TAILWIND CSS</h1>
-                            <ProgressBar bgColor="#02bfe2" animateOnRender={true} completed={85} />
+                    <div className='lg:w-40 w-full h-full lg:h-[25vh]'>
+                        <div className='flex justify-center hover:text-[#39abab] hover:scale-y-105 text-6xl hover:text-7xl transition-all duration-200 text-[#9fc8cf] items-center lg:w-40 lg:h-[25vh] h-[30vh]  rounded-3xl border border-[#07dde1]'>
+                            <RiTailwindCssFill className='' />
                         </div>
-                    </div>
-                    <div className='flex justify-center items-center space-x-5 w-full'>
-                        <FaNode className='text-4xl text-[#70a661]' />
-                        <div className='w-full '>
-                            <h1 className='text-white'>NODE JS</h1>
-                            <ProgressBar bgColor="#02bfe2" animateOnRender={true} completed={50} />
-                        </div>
+                        <h1 className='text-center my-5 uppercase text-[#07dde1] text-xl'>Tailwind css</h1>
                     </div>
                 </div>
-                <div className='flex flex-col lg:flex-row justify-center items-center w-full lg:space-x-10'>
-                    <div className='flex justify-center items-center space-x-5 w-full pb-8 lg:pb-0'>
-                        <SiExpress className='text-4xl bg-white rounded-full p-1' />
-                        <div className='w-full '>
-                            <h1 className='text-white'>EXPRESS JS</h1>
-                            <ProgressBar bgColor="#02bfe2" animateOnRender={true} completed={40} />
+                <div className='grid grid-cols-2 md:grid-cols-3 place-content-end gap-5  lg:mx-32 mx-3 lg:grid-cols-5'>
+                    <div className='lg:w-40 w-full h-full lg:h-[25vh]'>
+                        <div className='flex justify-center hover:text-[#70a661] hover:scale-y-105 text-6xl hover:text-7xl transition-all duration-200 text-[#9fc8cf] items-center  lg:w-40 lg:h-[25vh] h-[30vh] rounded-3xl border border-[#07dde1]'>
+                            <FaNode className=''></FaNode>
                         </div>
+                        <h1 className='text-center my-5 uppercase text-[#07dde1] text-xl'>Node js</h1>
                     </div>
-                    <div className='flex justify-center items-center space-x-5 w-full'>
-                        <SiMongodb className='text-4xl text-[#4ca13c]' />
-                        <div className='w-full'>
-                            <h1 className='text-white'>MONGODB</h1>
-                            <ProgressBar bgColor="#02bfe2" animateOnRender={true} completed={50} />
+                    <div className='lg:w-40 w-full h-full lg:h-[25vh]'>
+                        <div className='flex justify-center hover:text-[#70a661] hover:scale-y-105 text-6xl hover:text-7xl transition-all duration-200 text-[#9fc8cf] items-center  lg:w-40 lg:h-[25vh] h-[30vh]   rounded-3xl border border-[#07dde1]'>
+                            <SiExpress className=' bg-white rounded-full text-black p-1' />
                         </div>
+                        <h1 className='text-center my-5 uppercase text-[#07dde1] text-xl'>Express js</h1>
+                    </div>
+                    <div className='lg:w-40 w-full h-full lg:h-[25vh]'>
+                        <div className='flex justify-center hover:text-[#4ca13c] hover:scale-y-105 text-6xl hover:text-7xl transition-all duration-200 text-[#9fc8cf] items-center  lg:w-40 lg:h-[25vh] h-[30vh]  rounded-3xl border border-[#07dde1]'>
+                            <SiMongodb className=''></SiMongodb>
+                        </div>
+                        <h1 className='text-center my-5 uppercase text-[#07dde1] text-xl'>Mongodb</h1>
                     </div>
                 </div>
-
             </div>
         </section>
     );

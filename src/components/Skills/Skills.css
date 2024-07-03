@@ -1,4 +1,5 @@
-/* .barCompleted{
-    background-color: #02dde8;
-    width: 50%;
-} */
+.scal{
+    scale: 150px;
+    transition: all;
+    transition-duration: 200ms;
+}
