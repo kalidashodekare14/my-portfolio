@@ -1,6 +1,6 @@
 'use client'
 import { useEffect, useState } from 'react';
-import { FaCss3, FaFacebook, FaHtml5, FaInstagram, FaLinkedin, FaNode, FaReact, FaTwitter } from "react-icons/fa";
+import { FaCss3, FaFacebook, FaGithub, FaHtml5, FaInstagram, FaLinkedin, FaNode, FaReact, FaTwitter } from "react-icons/fa";
 import Cursor from '../Cursor/Cursor';
 import Image from 'next/image';
 import { isMobile } from 'react-device-detect';
@@ -46,9 +46,13 @@ const Banner = () => {
                     <a target='_blank' href="https://www.facebook.com/Shakti.Adhikari.68">
                         <FaFacebook data-aos="fade-up" data-aos-delay="2200" />
                     </a>
-                    <FaInstagram data-aos="fade-up" data-aos-delay="2300" />
+                    <a target='_blank' href="https://www.linkedin.com/in/developer-kalidash">
+                        <FaLinkedin data-aos="fade-up" data-aos-delay="2500" />
+                    </a>
+                    <a target='_blank' href="https://github.com/kalidashodekare14">
+                        <FaGithub data-aos="fade-up" data-aos-delay="2300" />
+                    </a>
                     <FaTwitter data-aos="fade-up" data-aos-delay="2400" />
-                    <FaLinkedin data-aos="fade-up" data-aos-delay="2500" />
                 </div>
                 <div>
                     <Link data-aos="fade-right" data-aos-delay="2600" download href="/dawnload.pdf">
@@ -57,7 +61,7 @@ const Banner = () => {
                 </div>
             </div>
             <div className='relative '>
-                <div data-aos="fade-up" data-aos-duration="1000" className='w-80'>
+                <div data-aos="fade-up" data-aos-duration="1000" className='w-96'>
                     <img className='flashMove' src="/man.png" alt="" />
                 </div>
 

@@ -81,7 +81,7 @@ const Navbar = () => {
                 Contact Us
             </Link>
         </li>
-        
+
     </>
 
     return (
@@ -95,7 +95,10 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-white text-xl">Code Crux</a>
+                <a className="btn btn-ghost text-white text-xl">
+                    <img className='w-10' src="/logo.png" alt="" />
+                    Code Crux
+                </a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
