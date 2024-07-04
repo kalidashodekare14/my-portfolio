@@ -25,7 +25,7 @@ const Skills = () => {
                 <div className='border-2 border-[#07dde1] w-32 m-auto'></div>
             </div>
             <div className='space-y-24'>
-                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-20 lg:mx-32 mx-3 my-10 mb-10'>
+                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 lg:gap-20 gap-5 lg:mx-32 mx-3 my-10 mb-10'>
                     <div data-aos="fade-up" data-aos-delay="1000" className='lg:w-40 w-full h-full lg:h-[25vh]'>
                         <div className='flex justify-center hover:scale-y-105 hover:text-[#f74a1d] text-6xl hover:text-7xl transition-all duration-200 text-[#fda5a591] items-center lg:w-40 lg:h-[25vh] h-[30vh]  rounded-3xl border border-[#07dde1]'>
                             <FaHtml5 className=''></FaHtml5>

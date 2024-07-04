@@ -52,16 +52,15 @@ const Banner = () => {
                     <a target='_blank' href="https://github.com/kalidashodekare14">
                         <FaGithub data-aos="fade-up" data-aos-delay="2300" />
                     </a>
-                    <FaTwitter data-aos="fade-up" data-aos-delay="2400" />
                 </div>
-                <div>
+                <div className='flex lg:justify-start justify-center items-center'>
                     <Link data-aos="fade-right" data-aos-delay="2600" download href="/dawnload.pdf">
-                        <button className='btn bg-opacity-0 border text-white  hover:bg-[#07dde1] hover:border-[#07dde1] ease-in duration-300 hover:text-black border-[#07dde1]'>Dawnload Resume</button>
+                        <button className='btn bg-opacity-0 border text-white  hover:bg-[#07dde1] hover:border-[#07dde1] ease-in duration-300 hover:text-black border-[#07dde1] mb-5'>Dawnload Resume</button>
                     </Link>
                 </div>
             </div>
             <div className='relative '>
-                <div data-aos="fade-up" data-aos-duration="1000" className='w-96'>
+                <div data-aos="fade-up" data-aos-duration="1000" className='lg:w-96'>
                     <Image width={500} height={300} className='flashMove' src="/man.png" alt="" />
                 </div>
 

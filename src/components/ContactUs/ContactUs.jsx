@@ -1,6 +1,6 @@
 'use client'
 import React, { useEffect, useRef } from 'react';
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { MdAddCall, MdAddLocationAlt, MdMarkEmailRead } from "react-icons/md";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -74,10 +74,15 @@ const ContactUs = () => {
                     <div data-aos="fade-right" data-aos-delay="2400" className='space-y-3'>
                         <h4 className='mt-10 uppercase'>Follow Us:</h4>
                         <div className='flex items-center space-x-5'>
-                            <FaFacebook />
-                            <FaInstagram />
-                            <FaTwitter />
-                            <FaLinkedin />
+                            <a target='_blank' href="https://www.facebook.com/Shakti.Adhikari.68">
+                                <FaFacebook />
+                            </a>
+                            <a target='_blank' href="https://www.linkedin.com/in/developer-kalidash">
+                                <FaLinkedin />
+                            </a>
+                            <a target='_blank' href="https://github.com/kalidashodekare14">
+                                <FaGithub />
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -8,8 +8,6 @@ import { Link } from 'react-scroll'
 
 const Navbar = () => {
 
-    const pathName = usePathname()
-
     const links = <>
         <li>
             <Link

@@ -40,21 +40,21 @@ const Project = () => {
                                 <SiMongodb className='text-4xl text-[#4ca13c]'></SiMongodb>
                             </div>
                         </div>
-                        <div className='flex space-x-3'>
+                        <div className='grid grid-cols-2 lg:grid-cols-3 gap-3'>
                             <Link target='_blank' href="https://painting-pros-3868a.web.app">
-                                <button className='btn bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
+                                <button className='btn w-full bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
                                     <FaEye className='text-2xl' />
                                     Live Link
                                 </button>
                             </Link>
                             <Link target='_blank' href="https://github.com/kalidashodekare14/Painting-Pros-Client">
-                                <button className='btn bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
+                                <button className='btn w-full bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
                                     <FaGithub className='text-2xl' />
                                     Client Link
                                 </button>
                             </Link>
                             <Link target='_blank' href="https://github.com/kalidashodekare14/Painting-Pros-Server">
-                                <button className='btn bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
+                                <button className='btn w-full bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
                                     <FaGithub className='text-2xl' />
                                     Server Link
                                 </button>
@@ -87,21 +87,21 @@ const Project = () => {
                                 <SiMongodb className='text-4xl text-[#4ca13c]'></SiMongodb>
                             </div>
                         </div>
-                        <div className='flex items-center space-x-3'>
+                        <div className='grid grid-cols-2 lg:grid-cols-3 gap-3'>
                             <Link target='_blank' href="https://precision-medical-camp.web.app">
-                                <button className='btn bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
+                                <button className='btn w-full bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
                                     <FaEye className='text-2xl' />
                                     Live Link
                                 </button>
                             </Link>
                             <Link target='_blank' href="https://github.com/kalidashodekare14/precision-medical-camp">
-                                <button className='btn bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
+                                <button className='btn w-full bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
                                     <FaGithub className='text-2xl' />
                                    Client Link
                                 </button>
                             </Link>
                             <Link target='_blank' href="https://github.com/kalidashodekare14/precision-medical-camp-server">
-                                <button className='btn bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
+                                <button className='btn w-full bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
                                     <FaGithub className='text-2xl' />
                                     Server Link
                                 </button>
@@ -134,21 +134,21 @@ const Project = () => {
                                 <SiMongodb className='text-4xl text-[#4ca13c]'></SiMongodb>
                             </div>
                         </div>
-                        <div className='flex items-center space-x-3'>
+                        <div className='grid grid-cols-2 gap-3 lg:grid-cols-3'>
                             <Link target='_blank' href="https://repair-perfect.web.app">
-                                <button className='btn bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
+                                <button className='btn w-full bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
                                     <FaEye className='text-2xl' />
                                     Live Link
                                 </button>
                             </Link>
                             <Link target='_blank' href="https://github.com/kalidashodekare14/repair-perfect-client">
-                                <button className='btn bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
+                                <button className='btn w-full bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
                                     <FaGithub className='text-2xl' />
                                     Client Link
                                 </button>
                             </Link>
                             <Link target='_blank' href="https://github.com/kalidashodekare14/repair-perfect-server">
-                                <button className='btn bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
+                                <button className='btn w-full bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
                                     <FaGithub className='text-2xl' />
                                     Server Link
                                 </button>
