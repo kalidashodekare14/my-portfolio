@@ -10,12 +10,12 @@ import Link from 'next/link';
 const Project = () => {
     return (
         <section id='projects' className='bg-[#0d0d0d] min-h-screen lg:px-32'>
-            <div className='text-center py-20 '>
+            <div data-aos="fade-up"   data-aos-duration="1000" className='text-center py-20 '>
                 <h1 className='text-center text-2xl text-white'>Latest Projects</h1>
                 <div className='border-2 border-[#07dde1] w-20 m-auto'></div>
             </div>
-            <div className='flex flex-col lg:flex-row lg:space-x-5 pb-5'>
-                <div className='px-2 lg:px-0 mb-10 lg:mb-0 border border-[#07dde1] rounded-2xl'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 pb-5'>
+                <div data-aos="fade-right" data-aos-delay="1000" className='px-2 lg:px-0 mb-10 lg:mb-0 border border-[#07dde1] rounded-2xl'>
                     <Image className='h-[40vh] w-full rounded-t-2xl' width={500} height={300} src="/project/project1.png" alt="" />
                     <div className='space-y-5 p-3'>
                         <div className='text-white space-y-3 mt-5'>
@@ -56,7 +56,7 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                <div className='px-2 lg:px-0 border border-[#07dde1] rounded-2xl'>
+                <div data-aos="fade-right" data-aos-delay="2000" className='px-2 lg:px-0 border border-[#07dde1] rounded-2xl'>
                     <Image className='h-[40vh] w-full rounded-t-2xl' width={500} height={300} src="/project/project2.png" alt="" />
                     <div className='space-y-5 p-3'>
                         <div className='text-white space-y-3 mt-5'>
@@ -97,9 +97,7 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className='flex flex-col lg:flex-row lg:space-x-5 pb-5'>
-                <div className='lg:w-[50%] px-2 lg:px-0 mb-10 lg:mb-0 border border-[#07dde1] rounded-2xl'>
+                <div data-aos="fade-right" data-aos-delay="2200" className=' px-2 lg:px-0 mb-10 lg:mb-0 border border-[#07dde1] rounded-2xl'>
                     <Image className='h-[40vh] w-full rounded-t-2xl' width={500} height={300} src="/project/project5.png" alt="" />
                     <div className='space-y-5 p-3'>
                         <div className='text-white space-y-3 mt-5'>
@@ -140,7 +138,7 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                <div className='lg:w-[50%] px-2 lg:px-0 border border-[#07dde1] rounded-2xl'>
+                <div data-aos="fade-right" data-aos-delay="2300" className='px-2 lg:px-0 border border-[#07dde1] rounded-2xl'>
                     <Image className='h-[40vh] w-full rounded-t-2xl' width={500} height={300} src="/project/project6.png" alt="" />
                     <div className='space-y-5 p-3'>
                         <div className='text-white space-y-3 mt-5'>
@@ -184,6 +182,9 @@ const Project = () => {
                     </div>
                 </div>
             </div>
+            {/* <div className='flex flex-col lg:flex-row lg:space-x-5 pb-5'>
+
+            </div> */}
         </section>
     );
 };
