@@ -1,4 +1,5 @@
 "use client"
+import Image from 'next/image';
 // import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React from 'react';
@@ -96,7 +97,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <a className="btn btn-ghost text-white text-xl">
-                    <img className='w-10' src="/logo.png" alt="" />
+                    <Image width={500} height={300} className='w-10' src="/logo.png" alt="" />
                     Code Crux
                 </a>
             </div>

@@ -62,7 +62,7 @@ const Banner = () => {
             </div>
             <div className='relative '>
                 <div data-aos="fade-up" data-aos-duration="1000" className='w-96'>
-                    <img className='flashMove' src="/man.png" alt="" />
+                    <Image width={500} height={300} className='flashMove' src="/man.png" alt="" />
                 </div>
 
             </div>

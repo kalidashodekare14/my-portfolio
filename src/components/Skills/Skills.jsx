@@ -7,7 +7,7 @@ import 'aos/dist/aos.css'
 import Image from 'next/image';
 import { FaCss3, FaHtml5, FaNode, FaReact } from 'react-icons/fa';
 import { IoLogoJavascript } from "react-icons/io5";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { SiExpress, SiMongodb } from "react-icons/si";
 
 
@@ -53,6 +53,12 @@ const Skills = () => {
                     <div data-aos="fade-up" data-aos-delay="2400" className='lg:w-40 w-full h-full lg:h-[25vh]'>
                         <div className='flex justify-center hover:text-[#39abab] hover:scale-y-105 text-6xl hover:text-7xl transition-all duration-200 text-[#9fc8cf] items-center lg:w-40 lg:h-[25vh] h-[30vh]  rounded-3xl border border-[#07dde1]'>
                             <RiTailwindCssFill className='' />
+                        </div>
+                        <h1 className='text-center my-5 uppercase text-[#07dde1] text-xl'>Tailwind css</h1>
+                    </div>
+                    <div data-aos="fade-up" data-aos-delay="2400" className='lg:w-40 w-full h-full lg:h-[25vh]'>
+                        <div className='flex justify-center hover:text-[#303e3e]  hover:scale-y-105 text-6xl hover:text-7xl transition-all duration-200 text-[#9fc8cf] items-center lg:w-40 lg:h-[25vh] h-[30vh]  rounded-3xl border border-[#07dde1]'>
+                            <RiNextjsFill className='' />
                         </div>
                         <h1 className='text-center my-5 uppercase text-[#07dde1] text-xl'>Tailwind css</h1>
                     </div>
