@@ -156,50 +156,7 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-right" data-aos-delay="2300" className='px-2 lg:px-0 border border-[#07dde1] rounded-2xl'>
-                    <Image className='h-[40vh] w-full rounded-t-2xl' width={500} height={300} src="/project/project6.png" alt="" />
-                    <div className='space-y-5 p-3'>
-                        <div className='text-white space-y-3 mt-5'>
-                            <h1 className='text-3xl roboto'>Royal Respite</h1>
-                            <p className='roboto text-[#ffffff6a]'>Search and book residential hotel units seamlessly on our platform. Whether renting for a short stay or buying for a long-term investment, find the perfect residence with ease.</p>
-                        </div>
-                        <div>
-                            <h1 className='text-white text-xl'>Features:</h1>
-                            <ul className='text-white space-y-3 ml-5 text-[14px]'>
-                                <li className='list-disc roboto text-[#ffffff6a]'>This website is made with Residential and here are some Residential hotels shown through cards.
-                                </li>
-                                <li className='list-disc roboto text-[#ffffff6a]'>Clicking the view property button of that card will show the complete details of that hotel.
-                                </li>
-                                <li className='list-disc roboto text-[#ffffff6a]'>If the user has login then he can see the details of the card by clicking on the view property of the card.</li>
-                            </ul>
-                        </div>
-                        <div className='space-y-2'>
-                            <h1 className='text-white text-xl'>Technology:</h1>
-                            <div className='flex justify-center items-center space-x-3'>
-                                <FaReact className='text-4xl text-[#00d1f7]'></FaReact>
-                                <RiTailwindCssFill className='text-4xl text-[#39abab]' />
-                                <FaNode className='text-4xl text-[#70a661]'></FaNode>
-                                <SiExpress className='text-4xl bg-white rounded-full p-1' />
-                                <SiMongodb className='text-4xl text-[#4ca13c]'></SiMongodb>
-                            </div>
-                        </div>
-                        <div className='flex items-center space-x-3'>
-                            <Link target='_blank' href="https://royal-respite.web.app">
-                                <button className='btn bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
-                                    <FaEye className='text-2xl' />
-                                    Live Link
-                                </button>
-                            </Link>
-                            <Link target='_blank' href="https://github.com/kalidashodekare14/royel-respite">
-                                <button className='btn bg-opacity-0 border border-[#07dde1] hover:border-[#07dde1] hover:text-black hover:bg-[#07dde1] text-white'>
-                                    <FaGithub className='text-2xl' />
-                                    Client Link
-                                </button>
-                            </Link>
-                            
-                        </div>
-                    </div>
-                </div>
+               
             </div>
             {/* <div className='flex flex-col lg:flex-row lg:space-x-5 pb-5'>
 
